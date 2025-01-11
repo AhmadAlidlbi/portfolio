@@ -1,4 +1,4 @@
-import { Outfit } from 'next/font/google';
+import { Outfit } from "next/font/google";
 
 /** @type {import('tailwindcss').Config} */
 const config = {
@@ -10,9 +10,9 @@ const config = {
   theme: {
     extend: {
       colors: {
-        lightHover: 'fcf4ff',
-        darkHover: '#2a004a',
-        darkTheme: '#11001F',
+        lightHover: "fcf4ff",
+        darkHover: "#2a004a",
+        darkTheme: "#11001F",
       },
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],

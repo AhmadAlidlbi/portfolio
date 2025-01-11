@@ -13,12 +13,12 @@ const Navbar = () => {
 
   const closeMenu = () => {
     sideMenuRef.current.style.transform = "translateX(16rem)";
-  };
+  }; 
 
   return (
     <>
-      <div className="fixed top-0 right-0 w-11/12 translate-y-[-80%]">
-        <Image src={assets.header_bg_color} alt="" className="w-full" />
+      <div className="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] md:block hidden">
+        <Image src={assets.header_bg_color} alt="" className="w-full z-[-1]" />
       </div>
       <nav className="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
         <a href="#top" className="flex-shrink-0">
