@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] md:block hidden">
         <Image src={assets.header_bg_color} alt="" className="w-full z-[-1]" />
       </div>
-      <nav className="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
+      <nav className="w-full fixed px-5 lg:px-8 x1:px-[8%] py-4 flex items-center justify-between z-50">
         <div className="flex items-center">
           <a href="#top" className="flex-shrink-0">
             <Image
@@ -29,7 +29,7 @@ const Navbar = () => {
               className="w-10 sm:w-8 md:w-10 lg:w-10 cursor-pointer mr-2"
             />
           </a>
-          <a href="#top" className="cursor-pointer text-1xl md:text-2xl">
+          <a href="#top" className="cursor-pointer text-xl md:text-1xl">
             Ahmad Alidlbi
           </a>
         </div>

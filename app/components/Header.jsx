@@ -34,7 +34,7 @@ const Header = () => {
         <a
           href="/sample-resume.pdf"
           download
-          className="px-10 py-3 border rounded-full border-grey-500 flex items-center gap-2"
+          className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2"
         >
           My Resume <Image src={assets.download_icon} alt="" className="w-4" />
         </a>

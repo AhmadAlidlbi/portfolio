@@ -35,8 +35,10 @@ import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
 import my_pic from "./my_pic.png";
+import me from "./me.png";
 
 export const assets = {
+  me,
   my_pic,
   user_image,
   code_icon,
@@ -139,7 +141,7 @@ export const infoList = [
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "B.Tech in Computer Science",
+    description: "Bachelor's degree in Software Engineering",
   },
   {
     icon: assets.project_icon,
