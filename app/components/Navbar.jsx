@@ -13,7 +13,7 @@ const Navbar = () => {
 
   const closeMenu = () => {
     sideMenuRef.current.style.transform = "translateX(16rem)";
-  }; 
+  };
 
   return (
     <>
@@ -21,13 +21,18 @@ const Navbar = () => {
         <Image src={assets.header_bg_color} alt="" className="w-full z-[-1]" />
       </div>
       <nav className="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
-        <a href="#top" className="flex-shrink-0">
-          <Image
-            src={assets.logo}
-            alt="logo"
-            className="w-28 cursor-pointer mr-14"
-          />
-        </a>
+        <div className="flex items-center">
+          <a href="#top" className="flex-shrink-0">
+            <Image
+              src={assets.logo}
+              alt="logo"
+              className="w-10 sm:w-8 md:w-10 lg:w-10 cursor-pointer mr-2"
+            />
+          </a>
+          <a href="#top" className="cursor-pointer text-1xl md:text-2xl">
+            Ahmad Alidlbi
+          </a>
+        </div>
 
         <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50">
           <li>
