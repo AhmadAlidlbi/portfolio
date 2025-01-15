@@ -2,7 +2,7 @@ import { assets } from "@/assets/assets";
 import Image from "next/image";
 import React from "react";
 
-const Footer = () => {
+const Footer = ({ isDarkMode }) => {
   return (
     <div className="mt-20">
       <div className="text-center">
@@ -20,7 +20,11 @@ const Footer = () => {
         </div>
 
         <div className="w-max flex items-center gap-2 mx-auto">
-          <Image src={assets.mail_icon} alt="logo" className="w-6" />
+          <Image
+            src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon}
+            alt="logo"
+            className="w-6"
+          />
           ahmedidlbi@hotmail.com
         </div>
       </div>
@@ -29,13 +33,19 @@ const Footer = () => {
         <p>© 2025 Ahmad Alidlbi. All rights reserved.</p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
           <li>
-            <a target="_blank" href="https://github.com/AhmadAlidlbi">Github</a>
+            <a target="_blank" href="https://github.com/AhmadAlidlbi">
+              Github
+            </a>
           </li>
           <li>
-            <a target="_blank" href="https://www.linkedin.com/in/ahmadalidlbi/">Linkedin</a>
+            <a target="_blank" href="https://www.linkedin.com/in/ahmadalidlbi/">
+              Linkedin
+            </a>
           </li>
           <li>
-            <a target="_blank" href="https://www.instagram.com/dev0ex/">Instagram</a>
+            <a target="_blank" href="https://www.instagram.com/dev0ex/">
+              Instagram
+            </a>
           </li>
         </ul>
       </div>
