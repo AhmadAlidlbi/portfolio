@@ -132,18 +132,21 @@ export const serviceData = [
 
 export const infoList = [
   {
+    index : 1,
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
     description: "HTML, CSS, JavaScript React Js, Next Js",
   },
   {
+    index : 2,
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
     description: "Bachelor's degree in Software Engineering",
   },
   {
+    index : 3,
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projects",
