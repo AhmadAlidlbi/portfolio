@@ -1,4 +1,4 @@
-import { Outfit } from "next/font/google";
+import { Outfit, Poppins } from "next/font/google";
 
 /** @type {import('tailwindcss').Config} */
 const config = {
@@ -13,10 +13,12 @@ const config = {
         lightHover: "#fcf4ff",
         darkHover: "#2a004a",
         darkTheme: "#11001F",
+        logoBlue: '#195DED'
       },
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],
         Ovo: ["Ovo", "serif"],
+        Poppins: ["Poppins", "sans-serif"],
       },
       boxShadow: {
         'black': '4px 4px 0 #000',
