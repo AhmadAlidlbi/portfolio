@@ -10,7 +10,7 @@ const config = {
   theme: {
     extend: {
       colors: {
-        lightHover: "#fcf4ff",
+        lightHover: "#eff6ff",
         darkHover: "#2a004a",
         darkTheme: "#11001F",
         logoBlue: '#195DED'

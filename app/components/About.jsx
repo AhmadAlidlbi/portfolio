@@ -13,7 +13,7 @@ const About = ({ isDarkMode }) => {
       id="about"
       className="w-full px-[12%] py-10 scroll-mt-20"
     >
-      <motion.h4
+      {/* <motion.h4
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
@@ -21,13 +21,13 @@ const About = ({ isDarkMode }) => {
         className="text-center mb-2 text-lg"
       >
         Introduction
-      </motion.h4>
+      </motion.h4> */}
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.5 }}
         viewport={{ once: true, amount: 0.2 }}
-        className="text-center text-5xl font-Ovo"
+        className="text-center text-5xl font-Poppins"
       >
         About me
       </motion.h2>
@@ -55,7 +55,7 @@ const About = ({ isDarkMode }) => {
           viewport={{ once: true, amount: 0.2 }}
           className="flex-1"
         >
-          <p className="mb-10 max-w-2x1 font-Ovo">
+          <p className="mb-10 max-w-2x1 font-Poppins">
             I'm a passionate software developer with a knack for creating
             dynamic and responsive web applications. With a strong foundation in
             JavaScript and React, I enjoy building user-friendly interfaces and
@@ -96,7 +96,7 @@ const About = ({ isDarkMode }) => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1.3 }}
             viewport={{ once: true, amount: 0.2 }}
-            className="my-6 text-gray-700 font-Ovo dark:text-white/80"
+            className="my-6 text-gray-700 font-Poppins dark:text-white/80"
           >
             Tools I use
           </motion.h4>

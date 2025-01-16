@@ -43,20 +43,16 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             <Image
               src={assets.logo}
               alt="logo"
-              className="w-5 sm:w-5 md:w-5 lg:w-7 cursor-pointer mr-2"
+              className="w-6 sm:w-6 md:w-6 lg:w-7 cursor-pointer mr-2"
             />
           </a>
           <a
             href="#top"
-            className="cursor-pointer text-[14px] sm:text-[14px] md:text-[16px] lg:text-[18px] xl:text-[18px] flex"
+            className="cursor-pointer text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[18px] flex-shrink-0"
           >
-            <span className="block lg:hidden flex-shrink-0">Ahmad Alidlbi</span>
-            <span className="hidden lg:block">
-              Ahmad Alidlbi | Software Engineer
-            </span>
+            Ahmad Alidlbi
           </a>
         </div>
-
         <ul
           className={`hidden md:flex items-center gap-6 lg:gap-12 rounded-full px-16 py-3 w-full justify-center ${
             isScroll
@@ -96,7 +92,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             <Image
               src={isDarkMode ? assets.sun_icon : assets.moon_icon}
               alt=""
-              className="w-4 lg:w-6 cursor-pointer"
+              className="w-5 lg:w-6 cursor-pointer"
             />
           </button>
 
@@ -104,7 +100,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             <Image
               src={isDarkMode ? assets.menu_white : assets.menu_black}
               alt=""
-              className="w-4 lg:w-6 cursor-pointer"
+              className="w-5 lg:w-6 cursor-pointer"
             />
           </button>
         </div>
@@ -130,7 +126,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </a>
           </li>
           <li>
-            <a className="font-Poppins text-sm" onClick={closeMenu} href="#about">
+            <a
+              className="font-Poppins text-sm"
+              onClick={closeMenu}
+              href="#about"
+            >
               About me
             </a>
           </li>
@@ -140,12 +140,20 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </a>
           </li> */}
           <li>
-            <a className="font-Poppins text-sm" onClick={closeMenu} href="#work">
+            <a
+              className="font-Poppins text-sm"
+              onClick={closeMenu}
+              href="#work"
+            >
               My work
             </a>
           </li>
           <li>
-            <a className="font-Poppins text-sm" onClick={closeMenu} href="#contact">
+            <a
+              className="font-Poppins text-sm"
+              onClick={closeMenu}
+              href="#contact"
+            >
               Contact me
             </a>
           </li>
