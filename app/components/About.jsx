@@ -13,7 +13,7 @@ const About = ({ isDarkMode }) => {
       id="about"
       className="w-full px-[12%] py-10 scroll-mt-20"
     >
-      {/* <motion.h4
+      <motion.h4
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
@@ -21,7 +21,7 @@ const About = ({ isDarkMode }) => {
         className="text-center mb-2 text-lg"
       >
         Introduction
-      </motion.h4> */}
+      </motion.h4>
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}

@@ -12,7 +12,7 @@ const Header = () => {
         transition={{ duration: 0.8, type: "spring", stiffness: 100 }}
         viewport={{ once: true, amount: 0.2 }}
       >
-        <Image src={assets.my_pic} alt="" className="rounded-full w-40 md:w-52 lg:w-64" />
+        <Image src={assets.my_pic} alt="" className="rounded-full w-52 md:w-64 lg:w-64" />
       </motion.div>
       <motion.h3
         initial={{ y: -20, opacity: 0 }}

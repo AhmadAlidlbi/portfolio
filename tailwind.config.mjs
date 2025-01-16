@@ -9,11 +9,14 @@ const config = {
   ],
   theme: {
     extend: {
+      screens: {
+        "custom-md": "845px", // Define a custom breakpoint
+      },
       colors: {
         lightHover: "#eff6ff",
         darkHover: "#2a004a",
         darkTheme: "#11001F",
-        logoBlue: '#195DED'
+        logoBlue: "#195DED",
       },
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],
@@ -21,11 +24,11 @@ const config = {
         Poppins: ["Poppins", "sans-serif"],
       },
       boxShadow: {
-        'black': '4px 4px 0 #000',
-        'white': '4px 4px 0 #fff',
+        black: "4px 4px 0 #000",
+        white: "4px 4px 0 #fff",
       },
       gridTemplateColumns: {
-        'auto': 'repeat(auto-fit, minmax(200px, 1fr))',
+        auto: "repeat(auto-fit, minmax(200px, 1fr))",
       },
     },
   },

@@ -32,7 +32,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
         <Image src={assets.header_bg_color} alt="" className="w-full z-[-1]" />
       </div>
       <nav
-        className={`w-full fixed px-5 lg:px-8 py-4 flex items-center z-50 ${
+        className={`w-full fixed px-8 py-4 flex items-center z-50 ${
           isScroll
             ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20"
             : ""
@@ -43,18 +43,18 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             <Image
               src={assets.logo}
               alt="logo"
-              className="w-6 sm:w-6 md:w-6 lg:w-7 cursor-pointer mr-2"
+              className="w-7 cursor-pointer mr-2"
             />
           </a>
           <a
             href="#top"
-            className="cursor-pointer text-[16px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[18px] flex-shrink-0"
+            className="cursor-pointer text-[18px] flex-shrink-0 py-3"
           >
             Ahmad Alidlbi
           </a>
         </div>
         <ul
-          className={`hidden md:flex items-center gap-6 lg:gap-12 rounded-full px-16 py-3 w-full justify-center ${
+          className={`hidden custom-md:flex items-center gap-12 rounded-full px-16 py-3 w-full justify-center ${
             isScroll
               ? ""
               : " bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"
@@ -87,20 +87,20 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </li>
         </ul>
 
-        <div className="flex justify-end w-full">
+        <div className="flex justify-end w-full py-3">
           <button onClick={() => setIsDarkMode(!isDarkMode)}>
             <Image
               src={isDarkMode ? assets.sun_icon : assets.moon_icon}
               alt=""
-              className="w-5 lg:w-6 cursor-pointer"
+              className="w-6 cursor-pointer"
             />
           </button>
 
-          <button className="block md:hidden ml-3" onClick={openMenu}>
+          <button className="block custom-md:hidden ml-3" onClick={openMenu}>
             <Image
               src={isDarkMode ? assets.menu_white : assets.menu_black}
               alt=""
-              className="w-5 lg:w-6 cursor-pointer"
+              className="w-6 cursor-pointer"
             />
           </button>
         </div>
@@ -109,7 +109,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
 
         <ul
           ref={sideMenuRef}
-          className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-blue-50 transition duration-500 dark:bg-darkHover dark:text-white"
+          className="flex custom-md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-52 z-50 h-screen bg-blue-50 transition duration-500 dark:bg-darkHover dark:text-white"
         >
           <div>
             <button className="absolute top-6 right-6" onClick={closeMenu}>
