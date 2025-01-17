@@ -38,7 +38,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             : ""
         }`}
       >
-        <div className="flex items-center w-full">
+        <div className="flex items-center w-full py-4">
           <a href="#top" className="flex-shrink-0">
             <Image
               src={assets.logo}
@@ -48,7 +48,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </a>
           <a
             href="#top"
-            className="cursor-pointer text-[18px] flex-shrink-0 py-3"
+            className="cursor-pointer text-[18px] flex-shrink-0"
           >
             Ahmad Alidlbi
           </a>
@@ -87,7 +87,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </li>
         </ul>
 
-        <div className="flex justify-end w-full py-3">
+        <div className="flex justify-end w-full">
           <button onClick={() => setIsDarkMode(!isDarkMode)}>
             <Image
               src={isDarkMode ? assets.sun_icon : assets.moon_icon}

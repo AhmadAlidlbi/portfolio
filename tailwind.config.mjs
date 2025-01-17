@@ -17,6 +17,7 @@ const config = {
         darkHover: "#2a004a",
         darkTheme: "#11001F",
         logoBlue: "#195DED",
+        logoOrange: "#F39C12",
       },
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],
