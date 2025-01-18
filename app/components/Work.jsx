@@ -84,7 +84,7 @@ const Work = ({ isDarkMode }) => {
         }
       >
         <Image
-          src={"/balance1.png"}
+          src="/balance1.png"
           width={400}
           height={400}
           alt="Project Thumbnail"
