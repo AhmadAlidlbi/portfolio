@@ -84,9 +84,7 @@ const Work = ({ isDarkMode }) => {
         }
       >
         <Image
-          src="/balance1.png"
-          width={400}
-          height={400}
+          src={assets.balance}
           alt="Project Thumbnail"
           className="w-full h-56 object-cover rounded-t-2xl mx-auto"
         />

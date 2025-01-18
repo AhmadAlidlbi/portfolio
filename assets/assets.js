@@ -37,8 +37,10 @@ import expo from "./expo.png";
 import js from "./js.png";
 import node from "./nodejs.png";
 import express from "./express.png";
+import balance from "./balance1.png";
 
 export const assets = {
+  balance,
   express,
   node,
   js,
