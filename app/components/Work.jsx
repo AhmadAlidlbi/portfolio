@@ -78,7 +78,7 @@ const Work = ({ isDarkMode }) => {
           opacity: { duration: 0.3, ease: "easeInOut", delay: 0.8 }, // Delay for opacity
           scale: { duration: 0.3, ease: "easeInOut" }, // Separate transition for hover scale
         }}
-        className="w-3/4 lg:w-1/4 min-h-60 rounded-2xl mx-auto cursor-pointer shadow-lg bg-white"
+        className="w-full lg:w-1/4 min-h-60 rounded-2xl mx-auto cursor-pointer shadow-lg bg-white"
         onClick={() =>
           window.open("https://github.com/AhmadAlidlbi/Balance", "_blank")
         }
