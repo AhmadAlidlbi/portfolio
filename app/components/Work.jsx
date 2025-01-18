@@ -18,7 +18,7 @@ const Work = ({ isDarkMode }) => {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.3 }}
         viewport={{ once: true, amount: 0.2 }}
-        className="text-center mb-2 text-lg font-Ovo"
+        className="text-center mb-2 text-lg font-Poppins"
       >
         My portfolio
       </motion.h4>
@@ -27,34 +27,34 @@ const Work = ({ isDarkMode }) => {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.5 }}
         viewport={{ once: true, amount: 0.2 }}
-        className="text-center text-5xl font-Ovo"
+        className="text-center text-5xl font-Poppins mb-12"
       >
         My latest work
       </motion.h2>
-
+      {/* 
       <motion.p
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}
         viewport={{ once: true, amount: 0.2 }}
-        className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
+        className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Poppins"
       >
         Welcome to my portfolio. Here are some of my recent projects.
-      </motion.p>
+      </motion.p> */}
 
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.9 }}
         viewport={{ once: true, amount: 0.2 }}
-        className="grid grid-cols-auto my-10 gap-5 dark:text-black"
+        className="grid grid-cols-1 place-items-center my-10 gap-5 dark:text-black"
       >
         {workData.map((project, index) => (
           <motion.div
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
             key={index}
-            className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+            className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group w-72"
             style={{ backgroundImage: `url(${project.bgImage})` }}
           >
             <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-3 flex items-center justify-between duration-500 group-hover:bottom-7">
@@ -68,6 +68,84 @@ const Work = ({ isDarkMode }) => {
             </div>
           </motion.div>
         ))}
+      </motion.div> */}
+
+      <motion.div
+        whileHover={{ scale: 1.03 }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{
+          opacity: { duration: 0.3, ease: "easeInOut", delay: 0.8 }, // Delay for opacity
+          scale: { duration: 0.3, ease: "easeInOut" }, // Separate transition for hover scale
+        }}
+        className="w-3/4 lg:w-1/4 min-h-60 rounded-2xl mx-auto cursor-pointer shadow-lg bg-white"
+        onClick={() =>
+          window.open("https://github.com/AhmadAlidlbi/Balance", "_blank")
+        }
+      >
+        <Image
+          src={"/balance1.png"}
+          width={400}
+          height={400}
+          alt="Project Thumbnail"
+          className="w-full h-56 object-cover rounded-t-2xl mx-auto"
+        />
+        <div className="p-4 flex flex-col gap-2">
+          <h2 className="text-lg font-semibold text-black font-Poppins">
+            Full-Stack Project
+          </h2>
+
+          <p className="text-sm text-gray-600 font-Poppins">
+            A feature-rich Task Manager app built with React Native, Express.js,
+            and MongoDB, enabling users to manage tasks, habits, and notes
+            seamlessly with an intuitive UI and secure authentication.
+          </p>
+
+          <div className="flex items-center gap-2 mt-2  ">
+            <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center hover:bg-gray-300 transition">
+              <Image
+                src={assets.expo}
+                alt="Tool 1"
+                className="w-5 h-5 justify-center"
+              />
+            </div>
+            <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center hover:bg-gray-300 transition">
+              <Image
+                src={assets.node}
+                alt="Tool 2"
+                className="w-5 h-5 justify-center"
+              />
+            </div>
+            <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center hover:bg-gray-300 transition">
+              <Image
+                src={assets.express}
+                alt="Tool 1"
+                className="w-5 h-5 justify-center"
+              />
+            </div>
+            <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center hover:bg-gray-300 transition">
+              <Image
+                src={assets.js}
+                alt="Tool 1"
+                className="w-5 h-5 justify-center rounded-sm"
+              />
+            </div>
+            <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center hover:bg-gray-300 transition">
+              <Image
+                src={assets.mongodb}
+                alt="Tool 1"
+                className="w-5 h-5 justify-center"
+              />
+            </div>
+            <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center hover:bg-gray-300 transition">
+              <Image
+                src={assets.figma}
+                alt="Tool 1"
+                className="w-5 h-5 justify-center"
+              />
+            </div>
+          </div>
+        </div>
       </motion.div>
 
       <motion.a

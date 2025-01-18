@@ -51,19 +51,22 @@ const About = ({ isDarkMode }) => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.8 }}
+          transition={{ duration: 0.6, delay: 1.2 }}
           viewport={{ once: true, amount: 0.2 }}
           className="flex-1"
         >
           <p className="mb-10 max-w-2x1 font-Poppins">
-            I'm a passionate software developer with a knack for creating
-            dynamic and responsive web applications. With a strong foundation in
-            JavaScript and React, I enjoy building user-friendly interfaces and
-            solving complex problems. My goal is to continuously learn and grow
-            in the ever-evolving field of web development.
+            I’m a Software Engineer based in Kuwait, passionate
+            about crafting software solutions. I studied Software Engineering at
+            Altınbaş University in Istanbul, where I built a strong foundation
+            in software principles. With expertise
+            in React, React Native, I focus on delivering scalable,
+            user-friendly, and impactful digital solutions. My experience also
+            includes tools like Firebase, Node.js, and Figma, and I’m driven by
+            a constant desire to learn and adapt to emerging technologies.
           </p>
 
-          <motion.ul
+          {/* <motion.ul
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1 }}
@@ -90,27 +93,27 @@ const About = ({ isDarkMode }) => {
                 </p>
               </motion.li>
             ))}
-          </motion.ul>
+          </motion.ul> */}
           <motion.h4
             initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.5, delay: 1.3 }}
+            transition={{ duration: 0.5, delay: 1.5 }}
             viewport={{ once: true, amount: 0.2 }}
             className="my-6 text-gray-700 font-Poppins dark:text-white/80"
           >
             Tools I use
           </motion.h4>
           <motion.ul
-                      initial={{ opacity: 0 }}
-                      whileInView={{ opacity: 1 }}
-                      transition={{ duration: 0.6, delay: 1.5 }}
-                      viewport={{ once: true, amount: 0.2 }}
-          className="flex items-center gap-3 sm:gap-6">
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 1.8 }}
+            viewport={{ once: true, amount: 0.2 }}
+            className="flex items-center gap-3 sm:gap-6"
+          >
             {toolsData.map((tool, index) => (
               <motion.li
                 whileHover={{ scale: 1.1 }}
                 viewport={{ once: true, amount: 0.2 }}
-
                 className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
                 key={index}
               >

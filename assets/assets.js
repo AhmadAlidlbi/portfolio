@@ -33,8 +33,16 @@ import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
 import my_pic from "./my_pic.png";
 import me from "./me.png";
+import expo from "./expo.png";
+import js from "./js.png";
+import node from "./nodejs.png";
+import express from "./express.png";
 
 export const assets = {
+  express,
+  node,
+  js,
+  expo,
   me,
   my_pic,
   code_icon,
@@ -74,24 +82,9 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "Web Design",
-    bgImage: "/work-1.png",
-  },
-  {
-    title: "Geo based app",
-    description: "Mobile App",
-    bgImage: "/work-2.png",
-  },
-  {
-    title: "Photography site",
-    description: "Web Design",
-    bgImage: "/work-3.png",
-  },
-  {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
-    bgImage: "/work-4.png",
+    title: "Full Stack Mobile Application",
+    description: "Task Manager",
+    bgImage: "/balancePanorama.png",
   },
 ];
 

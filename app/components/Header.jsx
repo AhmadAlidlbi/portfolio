@@ -5,21 +5,21 @@ import { motion } from "motion/react";
 
 const Header = () => {
   return (
-    <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 pt-32">
+    <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 pt-28">
       <motion.div
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
         transition={{ duration: 0.8, type: "spring", stiffness: 100,delay: 0.3 }}
         viewport={{ once: true, amount: 0.3 }}
       >
-        <Image src={assets.my_pic} alt="" className="rounded-full w-56 md:w-64 lg:w-64" />
+        <Image src={assets.my_pic} alt="" className="rounded-full w-56 md:w-56 lg:w-64" />
       </motion.div>
       <motion.h3
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.6 }}
         viewport={{ once: true, amount: 0.2 }}
-        className="flex items-end gap-2 mb-3 font-Poppins text-3xl md:text-6xl lg:text-6xl"
+        className="flex items-end gap-2 mb-3 font-Poppins text-3xl md:text-4xl lg:text-6xl"
       >
         Hi, I'm <span className="text-logoBlue">Ahmad Alidlbi</span>
       </motion.h3>
@@ -37,7 +37,7 @@ const Header = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.9 }}
         viewport={{ once: true, amount: 0.2 }}
-        className="max-w-2xl mx-auto text-sm md:text-lg lg:text-lg font-Poppins"
+        className="max-w-2xl mx-auto text-sm md:text-base lg:text-lg font-Poppins"
       >
         I'm a passionate <span className="text-logoOrange">Software Engineer</span> with a love for creating innovative solutions
         and a keen eye for detail. With a strong foundation in software
