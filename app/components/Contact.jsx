@@ -59,7 +59,7 @@ const Contact = () => {
         Get in touch
       </motion.h2>
 
-      <motion.p
+      {/* <motion.p
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.7, duration: 0.5 }}
@@ -70,7 +70,7 @@ const Contact = () => {
         opportunities to be part of your vision. Feel free to reach out through
         any of the platforms below, and I will get back to you as soon as
         possible.
-      </motion.p>
+      </motion.p> */}
 
       <motion.form
         initial={{ opacity: 0 }}
@@ -98,7 +98,7 @@ const Contact = () => {
             transition={{ delay: 1.1, duration: 0.6 }}
             viewport={{ once: true, amount: 0.2 }}
             type="email"
-            placeholder="Enter your E-mail"
+            placeholder="Enter your email"
             required
             className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90"
             name="email"

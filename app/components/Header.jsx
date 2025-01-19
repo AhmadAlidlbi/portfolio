@@ -39,10 +39,7 @@ const Header = () => {
         viewport={{ once: true, amount: 0.2 }}
         className="max-w-2xl mx-auto text-sm md:text-base lg:text-lg font-Poppins"
       >
-        I'm a passionate <span className="text-logoOrange">Software Engineer</span> with a love for creating innovative solutions
-        and a keen eye for detail. With a strong foundation in software
-        engineering, I strive to build applications that are not only functional
-        but also user-friendly and visually appealing.
+        I'm a passionate <span className="text-logoOrange">Software Engineer</span> with a love for creating innovative solutions and a keen eye for detail. With a strong foundation in software engineering, I strive to build applications that are not only functional but also user-friendly and visually appealing.
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">

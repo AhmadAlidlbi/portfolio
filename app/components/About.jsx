@@ -56,14 +56,7 @@ const About = ({ isDarkMode }) => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2x1 font-Poppins">
-            I’m a Software Engineer based in Kuwait, passionate
-            about crafting software solutions. I studied Software Engineering at
-            Altınbaş University in Istanbul, where I built a strong foundation
-            in software principles. With expertise
-            in React, React Native, I focus on delivering scalable,
-            user-friendly, and impactful digital solutions. My experience also
-            includes tools like Firebase, Node.js, and Figma, and I’m driven by
-            a constant desire to learn and adapt to emerging technologies.
+            I’m a Software Engineer based in Kuwait, passionate about crafting software solutions. I studied Software Engineering at Altınbaş University in Istanbul, where I built a strong foundation in software principles. With expertise in React, React Native, I focus on delivering scalable, user-friendly, and impactful digital solutions. My experience also includes tools like MongoDB, Firebase, Node.js, and Figma, and I’m driven by a constant desire to learn and adapt to emerging technologies.
           </p>
 
           {/* <motion.ul
