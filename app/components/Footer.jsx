@@ -11,10 +11,10 @@ const Footer = ({ isDarkMode }) => {
             <Image
               src={assets.logo}
               alt="logo"
-              className="w-10 sm:w-8 md:w-10 lg:w-10 cursor-pointer mr-2"
+              className="w-7 cursor-pointer mr-2"
             />
           </a>
-          <a href="#top" className="cursor-pointer text-xl md:text-1xl">
+          <a href="#top" className="cursor-pointer text-[18px] flex-shrink-0">
             Ahmad Alidlbi
           </a>
         </div>

@@ -74,6 +74,7 @@ const Work = ({ isDarkMode }) => {
         whileHover={{ scale: 1.03 }}
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
+        viewport={{ once: true, amount: 0.2 }}
         transition={{
           opacity: { duration: 0.3, ease: "easeInOut", delay: 0.8 }, // Delay for opacity
           scale: { duration: 0.3, ease: "easeInOut" }, // Separate transition for hover scale
@@ -154,7 +155,7 @@ const Work = ({ isDarkMode }) => {
         href="#"
         className="w-max flex items-center justify-center gap-2  text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover"
       >
-        Show more{" "}
+        Show more{""  }
         <Image
           src={isDarkMode ? assets.right_arrow_white : assets.right_arrow_bold}
           alt="arrow right"
