@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "motion/react";
 
-const Work = ({ isDarkMode }) => {
+const Projects = ({ isDarkMode }) => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -166,4 +166,4 @@ const Work = ({ isDarkMode }) => {
   );
 };
 
-export default Work;
+export default Projects;
