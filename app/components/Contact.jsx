@@ -47,7 +47,7 @@ const Contact = () => {
         viewport={{ once: true, amount: 0.2 }}
         className="text-center mb-2 text-lg font-Poppins"
       >
-        Connect
+        Connect with me
       </motion.h4>
       <motion.h2
         initial={{ y: -20, opacity: 0 }}
