@@ -67,7 +67,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </li>
           <li className="flex-shrink-0">
             <a className="font-Poppins text-sm" href="#about">
-              About me
+              About
             </a>
           </li>
           {/* <li className="flex-shrink-0">
@@ -77,12 +77,12 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </li> */}
           <li className="flex-shrink-0">
             <a className="font-Poppins text-sm" href="#work">
-              My work
+              Projects
             </a>
           </li>
           <li className="flex-shrink-0">
             <a className="font-Poppins text-sm" href="#contact">
-              Contact me
+              Contact
             </a>
           </li>
         </ul>
@@ -131,7 +131,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               onClick={closeMenu}
               href="#about"
             >
-              About me
+              About
             </a>
           </li>
           {/* <li>
@@ -145,7 +145,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               onClick={closeMenu}
               href="#work"
             >
-              My work
+              Projects
             </a>
           </li>
           <li>
@@ -154,7 +154,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               onClick={closeMenu}
               href="#contact"
             >
-              Contact me
+              Contact
             </a>
           </li>
         </ul>

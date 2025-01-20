@@ -9,6 +9,9 @@ const config = {
   ],
   theme: {
     extend: {
+      backgroundImage:{
+        'footerGradient': "url('/footer-bg-color.png')",
+      },
       screens: {
         "custom-md": "845px", // Define a custom breakpoint
       },

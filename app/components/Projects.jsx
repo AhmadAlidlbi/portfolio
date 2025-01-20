@@ -10,7 +10,7 @@ const Work = ({ isDarkMode }) => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
       viewport={{ once: true, amount: 0.2 }}
-      id="work"
+      id="projects"
       className="w-full px-[12%] py-10 scroll-mt-20"
     >
       <motion.h4
@@ -29,7 +29,7 @@ const Work = ({ isDarkMode }) => {
         viewport={{ once: true, amount: 0.2 }}
         className="text-center text-5xl font-Poppins mb-12"
       >
-        My latest work
+        My latest projects
       </motion.h2>
       {/* 
       <motion.p
