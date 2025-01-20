@@ -18,7 +18,7 @@ function Services() {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.3, duration: 0.5 }}
         viewport={{ once: true, amount: 0.2 }}
-        className="text-center mb-2 text-lg font-Ovo"
+        className="text-center mb-2 text-lg font-Poppins"
       >
         What I offer
       </motion.h4>
@@ -27,7 +27,7 @@ function Services() {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.5 }}
         viewport={{ once: true, amount: 0.2 }}
-        className="text-center text-5xl font-Ovo"
+        className="text-center text-5xl font-Poppins"
       >
         My services
       </motion.h2>
@@ -37,7 +37,7 @@ function Services() {
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.7, duration: 0.5 }}
         viewport={{ once: true, amount: 0.2 }}
-        className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
+        className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Poppins"
       >
         I'm a fronted developer from Syria, Based in kuwait with 1 year of
         experience in web development

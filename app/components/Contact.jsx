@@ -45,7 +45,7 @@ const Contact = () => {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.3, duration: 0.5 }}
         viewport={{ once: true, amount: 0.2 }}
-        className="text-center mb-2 text-lg font-Ovo"
+        className="text-center mb-2 text-lg font-Poppins"
       >
         Connect with me
       </motion.h4>
@@ -54,7 +54,7 @@ const Contact = () => {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.5 }}
         viewport={{ once: true, amount: 0.2 }}
-        className="text-center text-5xl font-Ovo"
+        className="text-center text-5xl font-Poppins"
       >
         Get in touch
       </motion.h2>
@@ -64,7 +64,7 @@ const Contact = () => {
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.7, duration: 0.5 }}
         viewport={{ once: true, amount: 0.2 }}
-        className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
+        className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Poppins"
       >
         I am always open to discussing new projects, creative ideas, or
         opportunities to be part of your vision. Feel free to reach out through
