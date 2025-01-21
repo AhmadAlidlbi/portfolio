@@ -29,7 +29,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
   return (
     <>
       <div className="fixed top-0 right-0 w-full -z-10 translate-y-[-70%] md:block hidden dark:hidden">
-        <Image src={assets.header_bg_color} alt="" className="w-full z-[-1]" />
+        <Image src={assets.header_bg_color} alt="" className="w-full z-[-1]" priority/>
       </div>
       <nav
         className={`w-full fixed px-8 py-4 flex items-center z-50 ${
