@@ -70,11 +70,6 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               About
             </a>
           </li>
-          {/* <li className="flex-shrink-0">
-            <a className="font-Poppins text-sm" href="#services">
-              Services
-            </a>
-          </li> */}
           <li className="flex-shrink-0">
             <a className="font-Poppins text-sm" href="#projects">
               Projects
@@ -91,7 +86,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <button onClick={() => setIsDarkMode(!isDarkMode)}>
             <Image
               src={isDarkMode ? assets.sun_icon : assets.moon_icon}
-              alt=""
+              alt="moon & sun icon"
               className="w-6 cursor-pointer"
             />
           </button>
@@ -99,7 +94,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <button className="block custom-md:hidden ml-3" onClick={openMenu}>
             <Image
               src={isDarkMode ? assets.menu_white : assets.menu_black}
-              alt=""
+              alt="menu icon"
               className="w-6 cursor-pointer"
             />
           </button>
@@ -115,7 +110,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             <button className="absolute top-6 right-6" onClick={closeMenu}>
               <Image
                 src={isDarkMode ? assets.close_white : assets.close_black}
-                alt=""
+                alt="close icon"
                 className="w-4 cursor-pointer"
               />
             </button>
@@ -134,11 +129,6 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               About
             </a>
           </li>
-          {/* <li>
-            <a className="font-Poppins text-sm" onClick={closeMenu} href="#services">
-              Services
-            </a>
-          </li> */}
           <li>
             <a
               className="font-Poppins text-sm"

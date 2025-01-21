@@ -1,4 +1,4 @@
-import { assets, workData } from "@/assets/assets";
+import { assets } from "@/assets/assets";
 import Image from "next/image";
 import React from "react";
 import { motion } from "motion/react";
@@ -31,44 +31,6 @@ const Projects = ({ isDarkMode }) => {
       >
         My latest projects
       </motion.h2>
-      {/* 
-      <motion.p
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.7 }}
-        viewport={{ once: true, amount: 0.2 }}
-        className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Poppins"
-      >
-        Welcome to my portfolio. Here are some of my recent projects.
-      </motion.p> */}
-
-      {/* <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.6, delay: 0.9 }}
-        viewport={{ once: true, amount: 0.2 }}
-        className="grid grid-cols-1 place-items-center my-10 gap-5 dark:text-black"
-      >
-        {workData.map((project, index) => (
-          <motion.div
-            whileHover={{ scale: 1.05 }}
-            transition={{ duration: 0.3 }}
-            key={index}
-            className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group w-72"
-            style={{ backgroundImage: `url(${project.bgImage})` }}
-          >
-            <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-3 flex items-center justify-between duration-500 group-hover:bottom-7">
-              <div>
-                <h2 className="font-semibold">{project.title}</h2>
-                <p className="text-sm text-gray-700">{project.description}</p>
-              </div>
-              <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-                <Image src={assets.send_icon} alt="send icon" className="w-5" />
-              </div>
-            </div>
-          </motion.div>
-        ))}
-      </motion.div> */}
 
       <motion.div
         whileHover={{ scale: 1.03 }}
@@ -76,8 +38,8 @@ const Projects = ({ isDarkMode }) => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true, amount: 0.2 }}
         transition={{
-          opacity: { duration: 0.3, ease: "easeInOut", delay: 0.8 }, // Delay for opacity
-          scale: { duration: 0.3, ease: "easeInOut" }, // Separate transition for hover scale
+          opacity: { duration: 0.3, ease: "easeInOut", delay: 0.8 }, 
+          scale: { duration: 0.3, ease: "easeInOut" }, 
         }}
         className="w-full lg:w-1/4 min-h-60 rounded-2xl mx-auto cursor-pointer shadow-lg bg-white"
         onClick={() =>
@@ -118,28 +80,28 @@ const Projects = ({ isDarkMode }) => {
             <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center hover:bg-gray-300 transition">
               <Image
                 src={assets.express}
-                alt="Tool 1"
+                alt="Tool 3"
                 className="w-5 h-5 justify-center"
               />
             </div>
             <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center hover:bg-gray-300 transition">
               <Image
                 src={assets.js}
-                alt="Tool 1"
+                alt="Tool 4"
                 className="w-5 h-5 justify-center rounded-sm"
               />
             </div>
             <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center hover:bg-gray-300 transition">
               <Image
                 src={assets.mongodb}
-                alt="Tool 1"
+                alt="Tool 5"
                 className="w-5 h-5 justify-center"
               />
             </div>
             <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center hover:bg-gray-300 transition">
               <Image
                 src={assets.figma}
-                alt="Tool 1"
+                alt="Tool 6"
                 className="w-5 h-5 justify-center"
               />
             </div>

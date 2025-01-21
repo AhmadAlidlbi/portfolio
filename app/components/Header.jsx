@@ -12,7 +12,7 @@ const Header = () => {
         transition={{ duration: 0.8, type: "spring", stiffness: 100,delay: 0.3 }}
         viewport={{ once: true, amount: 0.3 }}
       >
-        <Image src={assets.my_pic} alt="" className="rounded-full w-56 md:w-56 lg:w-64" />
+        <Image src={assets.my_pic} alt="personal picture of me" className="rounded-full w-56 md:w-56 lg:w-64" />
       </motion.div>
       <motion.h3
         initial={{ y: -20, opacity: 0 }}
@@ -23,15 +23,7 @@ const Header = () => {
       >
         Hi, I'm <span className="text-logoBlue">Ahmad Alidlbi</span>
       </motion.h3>
-        {/* <motion.h1
-          initial={{ y: -30, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.5 }}
-          viewport={{ once: true, amount: 0.2 }}
-          className="text-3xl sm:text-6xl lg:text-[66px]font-Poppins"
-        >
-          Software Engineer based in Kuwait
-        </motion.h1> */}
+      
       <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -52,7 +44,7 @@ const Header = () => {
           className="px-10 py-3 border rounded-full border-white bg-black text-white flex items-center gap-2 dark:bg-transparent"
         >
           Contact me{" "}
-          <Image src={assets.right_arrow_white} alt="" className="w-4" />
+          <Image src={assets.right_arrow_white} alt="contact me button" className="w-4" />
         </motion.a>
 
         <motion.a
@@ -64,7 +56,7 @@ const Header = () => {
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
         >
-          My Resume <Image src={assets.download_icon} alt="" className="w-4" />
+          My Resume <Image src={assets.download_icon} alt="resume download button" className="w-4" />
         </motion.a>
       </div>
     </div>

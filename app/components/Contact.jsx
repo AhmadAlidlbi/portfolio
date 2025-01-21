@@ -59,18 +59,6 @@ const Contact = () => {
         Get in touch
       </motion.h2>
 
-      {/* <motion.p
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ delay: 0.7, duration: 0.5 }}
-        viewport={{ once: true, amount: 0.2 }}
-        className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Poppins"
-      >
-        I am always open to discussing new projects, creative ideas, or
-        opportunities to be part of your vision. Feel free to reach out through
-        any of the platforms below, and I will get back to you as soon as
-        possible.
-      </motion.p> */}
 
       <motion.form
         initial={{ opacity: 0 }}
