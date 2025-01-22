@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
               "https://www.linkedin.com/in/ahmadalidlbi",
               "https://github.com/ahmadalidlbi",
               "https://www.instagram.com/dev0ex",
-            ],
+            ]
             "jobTitle": "Software Engineer",
             "description": "I'm Ahmad Alidlbi, a Software Engineer based in Kuwait, passionate about crafting software solutions.",
             "image": "https://www.ahmadalidlbi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmy_pic.e8a84c6d.png&w=3840&q=75"
