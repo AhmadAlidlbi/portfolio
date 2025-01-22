@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.ahmadalidlbi.com
+
+# Sitemaps
+Sitemap: https://www.ahmadalidlbi.com/sitemap.xml
