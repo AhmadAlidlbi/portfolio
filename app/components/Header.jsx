@@ -14,7 +14,7 @@ const Header = () => {
       >
         <Image src={assets.my_pic} alt="personal picture of me" className="rounded-full w-56 md:w-56 lg:w-64" />
       </motion.div>
-      <motion.h3
+      <motion.h1
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.6 }}
@@ -22,7 +22,7 @@ const Header = () => {
         className="flex items-end gap-2 mb-3 font-Poppins text-3xl md:text-4xl lg:text-6xl"
       >
         Hi, I'm <span className="text-logoBlue">Ahmad Alidlbi</span>
-      </motion.h3>
+      </motion.h1>
       
       <motion.p
           initial={{ opacity: 0 }}

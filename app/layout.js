@@ -8,7 +8,7 @@ const poppins = Poppins({
 
 export const metadata = {
   title: "Ahmad Alidlbi | Software Engineer",
-  description: "Personal portfolio",
+  description: "I'm Ahmad Alidlbi, a Software Engineer based in Kuwait, passionate about crafting software solutions.",
   openGraph: {
     title: "Ahmad Alidlbi | Software Engineer",
     description:
@@ -46,7 +46,8 @@ export default function RootLayout({ children }) {
             "url": "https://www.ahmadalidlbi.com",
             "sameAs": [
               "https://www.linkedin.com/in/ahmadalidlbi",
-              "https://github.com/ahmadalidlbi"
+              "https://github.com/ahmadalidlbi",
+              "https://www.instagram.com/dev0ex",
             ],
             "jobTitle": "Software Engineer",
             "description": "I'm Ahmad Alidlbi, a Software Engineer based in Kuwait, passionate about crafting software solutions.",
