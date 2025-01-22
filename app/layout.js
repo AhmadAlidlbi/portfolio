@@ -53,6 +53,18 @@ export default function RootLayout({ children }) {
             "image": "https://www.ahmadalidlbi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmy_pic.e8a84c6d.png&w=3840&q=75"
           }
           `}
+          {/* Google Tag */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-10R9ZBD5RP"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-10R9ZBD5RP');
+            `,
+          }}
+        />
         </script>
       </head>
       <body
